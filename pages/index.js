@@ -128,8 +128,7 @@ function App() {
 
   return (
     <>
-      {" "}
-      <div className="container px-8 max-w-4xl pb-6 lg:py-10 md:max-w-none md:w-full md:flex md:flex-row md:gap-2 md:justify-center md:items-center flex flex-col h-[calc(100vh-76px)]">
+      <div className="container px-8 max-w-4xl pb-6 lg:py-10 md:max-w-none md:w-full md:flex md:flex-row md:gap-2 md:justify-center md:items-start flex flex-col h-[calc(100vh-76px)]">
         {/* <hr className="mb-4 border-gray-400" />
          */}
         <div className="flex justify-start items-center h-12 md:flex-col mb-2">
@@ -221,7 +220,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="flex px-2 h-full py-2 flex-col gap-4 mt-6  w-full">
+            <div className="flex px-2 h-full py-2 flex-col gap-4 mt-6  w-full md:mt-0">
               {slides.map((slide, slideIndex) => (
                 <div
                   key={slideIndex}

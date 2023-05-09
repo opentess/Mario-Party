@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <nav className="flex w-full h-16">
-      <div className="flex items-center justify-center  text-[#202023] md:w-full pt-6 pb-4 px-6 mb-2">
+      <div className="flex items-center justify-center  text-[#202023] md:w-full mt-6 md:pb-0 pb-2 px-6 mb-2 md:mb-0">
         <h1 className=" font-heading text-3xl font-light lg:text-5xl text-gray-200">
           Drink Menu
         </h1>
