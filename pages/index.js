@@ -221,7 +221,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="flex px-2 h-full py-2 flex-col gap-4 mt-6  w-full overflow-y-scroll shrink  ">
+            <div className="flex px-2 h-full py-2 flex-col gap-4 mt-6  w-full">
               {slides.map((slide, slideIndex) => (
                 <div
                   key={slideIndex}
@@ -296,7 +296,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="flex px-2 h-full py-2 flex-col gap-4 mt-6  w-full overflow-y-scroll shrink  ">
+            <div className="flex px-2 h-full py-2 flex-col gap-4 mt-6  w-full">
               {plumberSlides.map((slide, slideIndex) => (
                 <div
                   key={slideIndex}
@@ -371,7 +371,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="flex px-2 h-full py-2 flex-col gap-4 mt-6  w-full overflow-y-scroll shrink  ">
+            <div className="flex px-2 h-full py-2 flex-col gap-4 mt-6  w-full  ">
               {mocktailSlides.map((slide, slideIndex) => (
                 <div
                   key={slideIndex}
