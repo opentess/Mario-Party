@@ -7,9 +7,8 @@ import Toad from "../public/Toad.jpeg";
 import Star from "../public/Star.jpg";
 import BlueShellBomb from "../public/BlueShellBomb.png";
 import Bowser from "../public/Bowser.png";
-import Luigi from "../public/Luigi.jpg";
 import PurlpeGuy from "../public/Purpleguy.png";
-
+import Luigi from "../public/Luigi.jpg";
 import Peach from "../public/Peach.png";
 import Image from "next/image";
 function App() {
