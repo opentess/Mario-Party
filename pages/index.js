@@ -61,6 +61,15 @@ function App() {
       strength: "Medium",
       color: "cyan",
     },
+    {
+      title: "Stardust Shot",
+      description: "An invincible shot!",
+      url: Star,
+      plumber: true,
+      alcohol: "Vodka",
+      strength: "Ligt-medium",
+      color: "cyan",
+    },
   ];
 
   const plumberSlides = [
