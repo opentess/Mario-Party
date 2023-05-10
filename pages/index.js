@@ -11,6 +11,8 @@ import PurlpeGuy from "../public/Purpleguy.png";
 import Luigi from "../public/Luigi.jpg";
 import Peach from "../public/Peach.png";
 import Image from "next/image";
+import Pineapple from "../public/Pineapple.jpg";
+import Berry from "../public/Berries.jpg";
 function App() {
   const slides = [
     {
@@ -96,8 +98,26 @@ function App() {
       description: "???",
       url: Toad,
       plumber: false,
-      alcohol: "???",
-      strength: "???",
+      alcohol: "Non-Alcoholic",
+      strength: "Low",
+      color: "green",
+    },
+    {
+      title: "Very Berry Smash",
+      description: "A Berry Blast!",
+      url: Berry,
+      plumber: false,
+      alcohol: "Non-Alcoholic",
+      strength: "Low",
+      color: "green",
+    },
+    {
+      title: "Pineapple Power",
+      description: "Pineapple Quencher",
+      url: Pineapple,
+      plumber: false,
+      alcohol: "Non-Alcoholic",
+      strength: "Low",
       color: "green",
     },
   ];
